@@ -9,13 +9,13 @@ All functions used to build the classifier and query PITCHf/x are contained in t
 
 Below are the results of the top baseline-beating pitchers for binary classification. We see that many elite pitchers are considered predictable by this model. One interpretation of this result is that elite pitchers have such good stuff, that they do not need to worry too much about pitch sequencing to deceive hitters.
 
-<img src="https://github.com/dcusworth/pitch_prediction/blob/master/img/bin.png" alt="binary" WIDTH="700"/>
+<img src="https://github.com/dcusworth/pitch_prediction/blob/master/img/bin1.png" alt="binary" WIDTH="700"/>
 
 
 The fitted weights of the binary classifier (i.e., factors determining whether or not a fastball will be thrown next) for Clayton Kershaw are shown below. An interpretation of these results is that if the break in the y-direction of his offspeed pitch (here principally the slider) is deviating largely from its historical mean, then he is more likely to go to his fastball. Also, the cofficients indicate that he is less likely to go to the fastball if he has been favoring the pitch (and his slider) too much during the course of the game. 
 
 
-<img src="https://github.com/dcusworth/pitch_prediction/blob/master/img/clayton.png" alt="clayton" WIDTH="700"/>
+<img src="https://github.com/dcusworth/pitch_prediction/blob/master/img/clayton1.png" alt="clayton" WIDTH="700"/>
 
 
 The code in this repository can be used in a similar fashion to find fitted weights for any major league pitcher. Enjoy!
